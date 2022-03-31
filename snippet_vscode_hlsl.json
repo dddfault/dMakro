@@ -1,0 +1,169 @@
+{
+	"dMakro float variable with slider, input or drag option.": {
+		"prefix": "mpfloat",
+		"body": [
+			"${1|MP_FLOAT_S,MP_FLOAT_I,MP_FLOAT_D|}(${2:varname},",
+			"  \"${3:label}\",",
+			"  \"${4:tooltip}\",",
+			"  \"${5:text}\",",
+			"  ${6:spacing}, ${7:minval}, ${8:maxval}, ${9:step}, ${10:defval})",
+			"$0"
+		],
+		"description": "dMakro float variable with slider, input or drag option."
+	},
+
+	"dMakro float2 variable with slider, input or drag option.": {
+		"prefix": "mpfloat2",
+		"body": [
+			"${1|MP_FLOAT2_S,MP_FLOAT2_I,MP_FLOAT2_D|}(${2:varname},",
+			"  \"${3:label}\",",
+			"  \"${4:tooltip}\",",
+			"  \"${5:text}\",",
+			"  ${6:spacing}, ${7:minval}, ${8:maxval}, ${9:step}, float2(${10:defval1}, ${11:devfal2}))",
+			"$0"
+		],
+		"description": "dMakro float2 variable with slider, input or drag option."
+	},
+
+	"dMakro float3 variable with slider, input or drag option.": {
+		"prefix": "mpfloat3",
+		"body": [
+			"${1|MP_FLOAT3_S,MP_FLOAT3_I,MP_FLOAT3_D|}(${2:varname},",
+			"  \"${3:label}\",",
+			"  \"${4:tooltip}\",",
+			"  \"${5:text}\",",
+			"  ${6:spacing}, ${7:minval}, ${8:maxval}, ${9:step}, float3(${10:defval1}, ${11:devfal2}, ${12:devfal3}))",
+			"$0"
+		],
+		"description": "dMakro float3 variable with slider, input or drag option."
+	},
+
+	"dMakro float4 variable with slider, input or drag option.": {
+		"prefix": "mpfloat4",
+		"body": [
+			"${1|MP_FLOAT4_S,MP_FLOAT4_I,MP_FLOAT4_D|}(${2:varname},",
+			"  \"${3:label}\",",
+			"  \"${4:tooltip}\",",
+			"  \"${5:text}\",",
+			"  ${6:spacing}, ${7:minval}, ${8:maxval}, ${9:step}, float4(${10:defval1}, ${11:devfal2}, ${12:devfal3}, ${13:devfal4}))",
+			"$0"
+		],
+		"description": "dMakro float4 variable with slider, input or drag option."
+	},
+
+	"dMakro int variable with slider, input or drag option.": {
+		"prefix": "mpint",
+		"body": [
+			"${1|MP_INT_S,MP_INT_I,MP_INT_D|}(${2:varname},",
+			"  \"${3:label}\",",
+			"  \"${4:tooltip}\",",
+			"  \"${5:text}\",",
+			"  ${6:spacing}, ${7:minval}, ${8:maxval}, ${9:step}, ${10:defval})",
+			"$0"
+		],
+		"description": "dMakro int variable with slider, input or drag option."
+	},
+
+	"dMakro int2 variable with slider, input or drag option.": {
+		"prefix": "mpint2",
+		"body": [
+			"${1|MP_INT2_S,MP_INT2_I,MP_INT2_D|}(${2:varname},",
+			"  \"${3:label}\",",
+			"  \"${4:tooltip}\",",
+			"  \"${5:text}\",",
+			"  ${6:spacing}, ${7:minval}, ${8:maxval}, ${9:step}, int2(${10:defval1}, ${11:devfal2}))",
+			"$0"
+		],
+		"description": "dMakro int2 variable with slider, input or drag option."
+	},
+
+	"dMakro int3 variable with slider, input or drag option.": {
+		"prefix": "mpint3",
+		"body": [
+			"${1|MP_INT3_S,MP_INT3_I,MP_INT3_D|}(${2:varname},",
+			"  \"${3:label}\",",
+			"  \"${4:tooltip}\",",
+			"  \"${5:text}\",",
+			"  ${6:spacing}, ${7:minval}, ${8:maxval}, ${9:step}, int3(${10:defval1}, ${11:devfal2}, ${12:devfal3}))",
+			"$0"
+		],
+		"description": "dMakro int3 variable with slider, input or drag option."
+	},
+
+	"dMakro int4 variable with slider, input or drag option.": {
+		"prefix": "mpint4",
+		"body": [
+			"${1|MP_INT4_S,MP_INT4_I,MP_INT4_D|}(${2:varname},",
+			"  \"${3:label}\",",
+			"  \"${4:tooltip}\",",
+			"  \"${5:text}\",",
+			"  ${6:spacing}, ${7:minval}, ${8:maxval}, ${9:step}, int4(${10:defval1}, ${11:devfal2}, ${12:devfal3}, ${13:devfal4}))",
+			"$0"
+		],
+		"description": "dMakro int4 variable with slider, input or drag option."
+	},
+
+	"dMakro boolean variable option.": {
+		"prefix": "mpbool",
+		"body": [
+			"MP_BOOL(${1:varname},",
+			"  \"${2:label}\",",
+			"  \"${3:tooltip}\",",
+			"  \"${4:text}\",",
+			"  ${5:spacing}, ${6|true,false|})",
+			"$0"
+		],
+		"description": "dMakro boolean variable option."
+	},
+
+	"dMakro items variable with combo, list and radio option.": {
+		"prefix": "mpitems",
+		"body": [
+			"${1|MP_COMBO,MP_RADIO,MP_LIST|}(${2:varname},",
+			"  \"${3:label}\",",
+			"  \"${4:tooltip}\",",
+			"  \"${5:text}\",",
+			"  \"${6:items}\",",
+			"  ${7:spacing}, ${8:minval}, ${9:maxval}, ${10:deval})",
+			"$0"
+		],
+		"description": "dMakro items variable with combo, list and radio option."
+	},
+
+	"dMakro color(rgb) variable option.": {
+		"prefix": "mpcolor",
+		"body": [
+			"MP_COLOR(${1:varname},",
+			"  \"${2:label}\",",
+			"  \"${3:tooltip}\",",
+			"  \"${4:text}\",",
+			"  ${6:spacing}, float3(${7:red}, ${8:green}, ${9:blue}))",
+			"$0"
+		],
+		"description": "dMakro color(rgb) variable option."
+	},
+
+	"dMakro color(rgba) variable option.": {
+		"prefix": "mpcolora",
+		"body": [
+			"MP_COLOR(${1:varname},",
+			"  \"${2:label}\",",
+			"  \"${3:tooltip}\",",
+			"  \"${4:text}\",",
+			"  ${6:spacing}, float4(${7:red}, ${8:green}, ${9:blue}, ${10:alpha}))",
+			"$0"
+		],
+		"description": "dMakro color(rgba) variable option."
+	},
+
+	"dMakro text variable option.": {
+		"prefix": "mptext",
+		"body": [
+			"MP_TEXT(${1:varname},",
+			"  \"${2:text}\",",
+			"  ${3:spacing})",
+			"$0"
+		],
+		"description": "dMakro text variable option."
+	},
+}
